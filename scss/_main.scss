@@ -25,6 +25,10 @@
 		margin: 0px 0px 110px 0px;
 	}
 	&__item {
+		color: #111;
+		&:hover {
+			color: #444;
+		}
 		img {
 			width: 280px !important;
 		}
@@ -119,10 +123,15 @@
 		font-weight: 500;
 		background: #68dea0;
 		border-radius: 7px;
-		padding: 5px 31px 5px 80px;
+		padding: 5px 31px 5px 30px;
 		align-self: flex-end;
+		display: flex;
+		align-items: center;
 		outline: none;
 		transition: background 0.2s ease 0s;
+		img {
+			margin: 0px 20px 0px 0px;
+		}
 		&:hover {
 			background: rgba(69, 182, 122, 0.774);
 		}
@@ -137,7 +146,6 @@
 // 	QUALITY SECTION STYLE;
 .quality {
 	background: #444444;
-	margin: 0px 0px 150hpx 0px;
 	&__body {
 		max-width: 100%;
 		padding: 60px 80px 100px;
@@ -208,15 +216,18 @@
 }
 
 .company {
-	height: 100vh;
-	// background: #000;
+	max-height: 700px;
 	&__title {
 		text-align: center;
-		margin: 150px 0px 0px 0px;
+		margin: 80px 0px 0px 0px;
 		font-weight: 500;
 		font-size: 40px;
 		color: #000;
 	}
+	&__slider {
+		padding: 0px 0px 40px 0px;
+	}
+	
 	&__slider--title {
 		font-size: 18px;
 		text-align: center;
