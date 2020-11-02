@@ -20,10 +20,11 @@ $(function () {
       responsive: {
          0: {
             items: 1,
-            // dots: true,
+            dots: true,
          },
          375: {
             items: 1,
+	    dots: true,
          },
          768: {
             items: 2,
@@ -34,9 +35,8 @@ $(function () {
          },
          1600: {
             items: 4,
-				nav: true,
-				margin: 120,
-				
+	    nav: true,
+	    margin: 120,
          },
       },
    });
