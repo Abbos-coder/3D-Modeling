@@ -37,6 +37,16 @@ img {
   vertical-align: top;
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ddd;
+  border-radius: 25px;
+}
+
 .blog__line {
   margin-top: 70px;
   border-bottom: 2px solid #000;
@@ -556,6 +566,7 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   max-width: 1400px;
+  margin: 0 auto;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding: 0px 0px 55px 0px;
@@ -827,12 +838,15 @@ img {
   }
 }
 
-@media (max-width: 1920px) {
+@media (min-width: 1366px) {
   .content__navbar--list {
     margin-right: 170px;
   }
   .swiper-container {
     max-width: 1366px;
+  }
+  .footer__creators {
+    max-width: 1800px;
   }
 }
 

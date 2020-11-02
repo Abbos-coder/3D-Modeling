@@ -143,12 +143,15 @@
 		margin-bottom: 74px;
 	}
 }
-@media (max-width: 1920px){
+@media (min-width: 1366px){
 	.content__navbar--list {
 		margin-right: 170px;
 	}
 	.swiper-container {
 		max-width: 1366px;
+  }
+  .footer__creators {
+	  max-width: 1800px;
   }
 }
 @media (max-width: 600px){
