@@ -20,7 +20,6 @@
 		max-width: 700px;
 		margin: 0 auto;
 	}
-
 }
 @media (max-width: 1366px) {
 	.company {
@@ -45,6 +44,10 @@
 	.header__messengers {
 		display: none;
 	}
+	.header__logo {
+		margin: -8px 0px 10px -10px;
+	}
+
 	.content__navbar--list {
 		flex-direction: column;
 		justify-content: space-around;
@@ -96,7 +99,7 @@
 		z-index: 3;
 	}
 	.header__signin {
-		margin: 55px 0px 15px 0px;
+		margin: 71px 0px 15px 0px;
 	}
 	.navbar__burger {
 		display: block;
@@ -146,7 +149,6 @@
 	.swiper-container {
 		padding-top: 100px;
 	}
-
 }
 @media (max-width: 360px) {
 	.swiper-container {
@@ -166,18 +168,18 @@
 		margin-bottom: 74px;
 	}
 }
-@media (min-width: 1366px){
+@media (min-width: 1366px) {
 	.content__navbar--list {
 		margin-right: 170px;
 	}
 	.swiper-container {
 		max-width: 1366px;
-  }
-  .footer__creators {
-	  max-width: 1800px;
-  }
+	}
+	.footer__creators {
+		max-width: 1800px;
+	}
 }
-@media (max-width: 600px){
+@media (max-width: 600px) {
 	.footer__creators {
 		p {
 			text-align: center;
@@ -186,7 +188,7 @@
 	}
 }
 
-@media (max-width: 414px){
+@media (max-width: 414px) {
 	.mapouter {
 		width: 400px;
 	}
@@ -196,4 +198,78 @@
 			width: 400px;
 		}
 	}
+	.slide {
+		padding: 2em 1em !important;
+		max-width: 1200px;
+		margin: 0px !important;
+	}
+	.payment {
+		padding: 3.5em 1em 5.5em !important;
+	}
 }
+
+// sale (Aksiya) media
+
+@media (max-width: 768px) {
+	.sale__title {
+		margin: 50px 0px 80px 22% !important;
+	}
+	.sale__line {
+		display: none;
+	}
+	.sale__card,
+	.sale__imgblog {
+		width: 375px !important;
+	}
+	.sale__img {
+		width: 360px !important;
+	}
+}
+
+@media (max-width: 414px) {
+	.sale__title {
+		margin: 50px 0px 80px 0% !important;
+	}
+}
+
+// free page (bepul mahsulotlar)
+
+@media (max-width: 768px) {
+	.freeproducts__card,
+	.freeproducts__card--image {
+		width: 375px !important;
+	}
+	.freeproducts__card--img {
+		width: 355px !important;
+	}
+	.freeproducts__line1,
+	.freeproducts__line2 {
+		width: 25% !important;
+	}
+}
+@media (max-width: 414px) {
+	.freeproducts__line1,
+	.freeproducts__line2 {
+		display: none;
+	}
+	.freeproducts__title {
+		justify-content: center !important;
+	}
+	.freecontent__img {
+		width: 420px;
+		margin: 30px 0px 0px 0px;
+	}
+}
+
+// portfolio media
+
+@media (max-width: 768px) {
+	.portfolio__card {
+		width: 375px !important;
+	}
+	.portfolio__card--img {
+		width: 375px !important;
+	}
+}
+
+// shoping card style

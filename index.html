@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="./jQuery/lips/owlcarousel2/assets/owl.carousel.min.css">
 	<link rel="stylesheet" href="./jQuery/lips/owlcarousel2/assets/owl.theme.default.min.css">
 
-	<link rel="stylesheet" href="./js/swiper.min.css">
+	<link rel="stylesheet" href="./css/swiper.min.css">
 	<!-- style-link -->
 	<link rel="stylesheet" href="css/style.css">
 	<title>3D Model</title>
@@ -20,7 +20,7 @@
 	<div class="wrapper">
 		<header class="header">
 			<div class="header__body">
-				<a href="index.html" class="header__logo">Logo</a>
+				<a href="index.html" class="header__logo"><img src="./img/logo.png" alt="logo"></a>
 				<div class="header__messengers">
 					<a href="email:abbos@gmail.com"><img src="./img/icons/email.svg" alt="email icon"> abbos@gmail.com</a>
 					<a href="#"><img src="./img/icons/instagram.svg" alt="instagram icon"></a>
@@ -31,9 +31,11 @@
 				<div class="header__signin">
 					<img src="./img/icons/bar-chart.svg" alt="bar-chart icon">
 					<p>1123</p>
-					<a href="#" class="header__registration">Ro'yhatdan o'tish</a>
+					<a href="register.html" class="header__registration">Ro'yhatdan o'tish</a>
 					<a href="#" class="header__order">Buyurtma berish</a>
-					<img src="./img/icons/shopping-cart.svg" alt="shoping card">
+					<a href="shopingCard.html"  class="header__shopcard">
+						<img src="./img/icons/shopping-cart.svg" alt="shoping card">
+					</a>
 				</div>
 				<div class="header__language">
 					<button class="uz active">uzb</button>
@@ -56,12 +58,13 @@
 
 			<div class="content__navbar">
 				<ul class="content__navbar--list">
-					<li><a href="#">Aksiya</a></li>
-					<li><a href="#">Bepul mahsulotlar</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="#">Videolar</a></li>
-					<li><a href="#">Biz haqimizda</a></li>
-					<li><a href="#">Aloqa</a></li>
+					<li><a href="index.html">Bosh menyu</a></li>
+					<li><a href="sale.html">Aksiya</a></li>
+					<li><a href="free.html">Bepul mahsulotlar</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="Videos.html">Videolar</a></li>
+					<li><a href="about.html">Biz haqimizda</a></li>
+					<li><a href="Aloqa.html">Aloqa</a></li>
 				</ul>
 			</div>
 
@@ -84,42 +87,42 @@
 					<div class="blog__items">
 						<div class="owl-carousel owl-theme">
 
-							<a href="#" class="blog__item">
+							<a href="Mahsulot.html" class="blog__item">
 								<div class="blog__item--img">
 									<img src="./img/slider-img.png" alt="slider-img">
 								</div>
 								<div class="blog__item--subtitle">Mersedes X7 <br> </div>
 							</a>
 
-							<a href="#" class="blog__item">
+							<a href="Mahsulot.html" class="blog__item">
 								<div class="blog__item--img">
 									<img src="./img/slider-img.png" alt="slider-img">
 								</div>
 								<div class="blog__item--subtitle">Mersedes X7</div>
 							</a>
 
-							<a href="#" class="blog__item">
+							<a href="Mahsulot.html" class="blog__item">
 								<div class="blog__item--img">
 									<img src="./img/slider-img.png" alt="slider-img">
 								</div>
 								<div class="blog__item--subtitle">Mersedes X7</div>
 							</a>
 
-							<a href="#" class="blog__item">
+							<a href="Mahsulot.html" class="blog__item">
 								<div class="blog__item--img">
 									<img src="./img/slider-img.png" alt="slider-img">
 								</div>
 								<div class="blog__item--subtitle">Mersedes X7</div>
 							</a>
 
-							<a href="#" class="blog__item">
+							<a href="Mahsulot.html" class="blog__item">
 								<div class="blog__item--img">
 									<img src="./img/slider-img.png" alt="slider-img">
 								</div>
 								<div class="blog__item--subtitle">Mersedes X7</div>
 							</a>
 
-							<a href="#" class="blog__item">
+							<a href="Mahsulot.html" class="blog__item">
 								<div class="blog__item--img">
 									<img src="./img/slider-img.png" alt="slider-img">
 								</div>
@@ -146,14 +149,14 @@
 								<div class="blog__item--subtitle">Mersedes X7 <br> </div>
 							</a>
 
-							<a href="#" class="blog__item">
+							<a href="Mahsulot.html" class="blog__item">
 								<div class="blog__item--img">
 									<img src="./img/slider-img.png" alt="slider-img">
 								</div>
 								<div class="blog__item--subtitle">Mersedes X7</div>
 							</a>
 
-							<a href="#" class="blog__item">
+							<a href="Mahsulot.html" class="blog__item">
 								<div class="blog__item--img">
 									<img src="./img/slider-img.png" alt="slider-img">
 								</div>
@@ -363,7 +366,7 @@
 
 				<div class="blog__btns">
 					<button class="blog__btns--back"> <img src="./img/icons/arrow-back.svg" alt="back icon">Back</button>
-					<button class="blog__btns--next">Next <img src="./img/icons/next-icon.svg" alt="next icon"></button>
+					<a href="sale.html" class="blog__btns--next">Next <img src="./img/icons/next-icon.svg" alt="next icon"></a>
 
 				</div>
 			</div>
@@ -512,13 +515,12 @@
 								src="https://maps.google.com/maps?q=uzbekistan%2C%20toshkent%2C%20mirzo%20ulugbek&t=&z=13&ie=UTF8&iwloc=&output=embed"
 								frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
 								href="https://2piratebay.org">free movies</a></div>
-					
 					</div>
 				</div>
 			</div>
 
 			<div class="footer__creators">
-				<p><span>Copyright ©️</span> 2020 <strong>Zafar Plast</strong>  Barcha huquqlar himoyalangan</p>
+				<p><span>Copyright ©️</span> 2020 <strong>Zafar Plast</strong> Barcha huquqlar himoyalangan</p>
 				<p>Sayt yaratuvchi Instant Company</p>
 			</div>
 		</footer>

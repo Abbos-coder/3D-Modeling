@@ -25,6 +25,7 @@ $(function () {
          375: {
 				items: 1,
             dots: true,
+				
          },
          768: {
             items: 2,

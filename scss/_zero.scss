@@ -30,11 +30,11 @@ img {
 	vertical-align: top;
 }
 
-::-webkit-scrollbar {
+body::-webkit-scrollbar {
 	width: 12px;
 	background-color: #000;
 }
-::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
 	background-color: #ddd;
 	border-radius: 25px;
 }

@@ -1,4 +1,4 @@
-var swiper = new Swiper('.swiper-container', {
+let swiper = new Swiper('.swiper-container', {
 	effect: 'coverflow',
 	grabCursor: true,
 	centeredSlides: true,
@@ -51,3 +51,13 @@ function myFunc() {
 	});
 }
 myFunc();
+
+// let checkbox = document.querySelector('input[type="checkbox"]');
+// let checks = document.querySelectorAll('input[type="checkbox"]')
+// console.log(checks)
+
+// checkbox.addEventListener('click', () => {
+// 	console.log('checked')
+// 	for (let i = 0; i < checks.length; i++)
+// 		i[1].onclick;
+// })
